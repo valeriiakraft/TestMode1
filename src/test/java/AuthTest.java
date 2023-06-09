@@ -22,7 +22,6 @@ public class AuthTest {
 
     @BeforeEach
     void setup() {
-        Configuration.holdBrowserOpen = true;
         open("http://localhost:9999");
         driver = new ChromeDriver();
         ChromeOptions options = new ChromeOptions();
